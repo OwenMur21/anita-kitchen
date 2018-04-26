@@ -3,7 +3,8 @@
   background-image: url("../img/landing.jpg");
   background-repeat: no repeat;
   background-size: cover;
-  background-position: center;
+
+  padding-left:1px;
 }
  .nav div{
    height: 2px;
@@ -14,4 +15,32 @@
 .nav{
   width:30px;
   display: block;
+}
+img{
+  margin:5px;
+}
+.logo{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 22px;
+  color: white;
+  font-weight: lighter;
+}
+.sidebar{
+  background-color: #F15A29;
+  width: 150px;
+  height: 300px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 18px;
+  display: none;
+  position: fixed;
+  z-index: 1;
+
+
+}
+ul li{
+  list-style-type: none;
+
+}
+a {
+  color: black;
 }
