@@ -1,4 +1,3 @@
-
 .jumbotron {
   background-image: url("../img/landing.jpg");
   background-repeat: no repeat;
@@ -6,172 +5,215 @@
   margin: 0px;
   width: 100%;
 }
- .nav div{
-   height: 2px;
-   background-color: white;
-   margin: 5px 0;
- }
- .linkb{
-   color:white;
- }
-.nav{
-  width:30px;
+
+.nav1 div {
+  height: 2px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.nav1 {
+  width: 30px;
   display: block;
-  margin-left:100px;
+  margin-left: 100px;
   position: absolute;
   margin-top: 0px;
 }
-img{
-  margin:5px;
-}
-.logo{
+
+.logo {
   font-family: 'News Cycle', sans-serif;
   font-size: 22px;
   color: white;
   font-weight: lighter;
 }
-.sidebar{
+
+.sidebar {
   background-color: #F15A29;
   width: 100px;
-  height: 300px;
+  height: 100%;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 18px;
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 1;
+}
 
-}
-.border{
-  float: right;
-}
-ul li{
+ul li {
   list-style-type: none;
-
 }
+
 a {
   color: black;
-
 }
-#breko{
+
+.here:hover {
+  background-color: white;
+  color: black;
+}
+
+#breko {
   background-image: url("../img/breakfast.jpg");
   background-repeat: no repeat;
   background-size: cover;
   font-family: 'Alex Brush', cursive;
-  color:white;
+  color: white;
   text-align: center;
   font-size: 20px;
   padding: 80px;
-  margin:0px;
+  margin: 0px;
 }
 
-#lunch{
+#lunch {
   background-image: url("../img/lunch.jpg");
   background-repeat: no repeat;
   background-size: cover;
   font-family: 'Alex Brush', cursive;
-  color:white;
+  color: white;
   text-align: center;
   font-size: 20px;
   padding: 80px;
-  margin:0px;
+  margin: 0px;
 }
-#dinner{
+
+#dinner {
   background-image: url("../img/dinner.jpg");
   background-repeat: no repeat;
   background-size: cover;
   font-family: 'Alex Brush', cursive;
-  color:white;
+  color: white;
   text-align: center;
   font-size: 20px;
   padding: 80px;
-  margin:0px;
+  margin: 0px;
 }
 
-#happy{
-
-    height:99px;
-    margin:0px;
-    text-align: center;
-    padding: 25px;
-
+#happy {
+  height: 99px;
+  margin: 0px;
+  text-align: center;
+  padding: 25px;
 }
-#party{
+
+#party {
   background-color: #F15A29;
-  height:99px;
-  margin:0px;
+  height: 99px;
+  margin: 0px;
   text-align: center;
   padding: 25px;
   color: white;
 }
-#times{
-  margin:0px;
+
+#times {
+  margin: 0px;
   padding: 0px;
 }
-#breko:hover{
-  background-color: white;
-}
-.img1{
-margin:0px;
-  margin-left:300px;
 
-}
-.thumbnail{
-  width:500px;
+.img1 {
+  margin: 0px;
   margin-left: 300px;
 }
-.thumbnail1{
-  width:500px;
+
+.thumbnail {
+  width: 500px;
   margin-left: 300px;
 }
-.border{
-  margin:20px;
-}
 
-
-#fasting{
+#fasting {
   margin-top: 10px;
 }
 
-#fastfood1{
-  width:20%;
+#fastfood1 {
+  width: 20%;
 }
-#drinks1{
-  width:20%;
+
+#drinks1 {
+  width: 20%;
   margin-left: 350px;
 }
 
-#drinks2{
+#drinks2 {
   float: right;
   font-size: 0px;
+  line-height: 0px;
 }
-#glass1{
-    margin:0px;
-    padding-right: 0px;
+
+#glass1 {
+  margin-bottom: 1px;
+  padding-right: 0px;
+  margin: 0px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
-#glass2{
-  margin:0px;
-    padding-right: 0px;
+
+#glass2 {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0px;
+  padding-right: 0px;
+  margin-bottom: 1px;
 }
+
 button {
-    background-color: white;
-    border-color: #F15A29;
-    color: #F15A29;
-
-
+  background-color: white;
+  border-color: #F15A29;
+  color: #F15A29;
 }
-.panel-footer{
+
+.panel-footer {
   background-color: #F15A29;
   color: white;
-  font-family:monospace;
+  font-family: monospace;
+  padding-top: 0px;
 }
-.panel-body{
+
+.panel-body {
   background-image: url("../img/subscribe.jpg");
   background-repeat: no repeat;
   background-size: cover;
   color: white;
   font-size: 20px;
   padding: 100px;
+  margin: 0px;
 }
-#meli{
-  background-color: rbga(176,174,174,0.35);
+
+#carosel {
+  background-image: url("../img/foodsBg.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  color: black;
+}
+
+#foods {
+  color: #F15A29;
+}
+
+.reviews {
+  padding: 100px;
+}
+
+.panel {
+  border: 2px solid grey;
+  padding: 300px;
+}
+
+#customer {
+  border: 2px solid grey;
+}
+
+.vl {
+  border-left: 3px solid grey;
+  height: 175px;
+  margin-top: 25px;
+}
+
+#about {
+  float: left;
+}
+
+#meli {
+  background-color: transparent;
+}
+
+#gratzi {
+  display: none;
 }
