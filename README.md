@@ -7,7 +7,7 @@ This is a recreated website as reuested for Anita's kitchen. It has alot of use 
 ## Setup/Installation Requirements
 * No setup is required to access this data
 ## Known Bugs
-There are no bugs. Be sure to contact me incase you come across any.
+The glyphicons I have referenced to do not work. 
 ## Technologies Used
 This was created by the use of various HTML5 elements including classes, basic html tags and the box model to position the content appropriately.
 ## Support and contact details
