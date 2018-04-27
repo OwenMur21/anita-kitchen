@@ -1,20 +1,25 @@
+
 .jumbotron {
-  margin-top: 15px;
   background-image: url("../img/landing.jpg");
   background-repeat: no repeat;
   background-size: cover;
-
-  padding-left:1px;
+  margin: 0px;
+  width: 100%;
 }
  .nav div{
    height: 2px;
    background-color: white;
    margin: 5px 0;
-   border-radius: 25px;
+ }
+ .linkb{
+   color:white;
  }
 .nav{
   width:30px;
   display: block;
+  margin-left:100px;
+  position: absolute;
+  margin-top: 0px;
 }
 img{
   margin:5px;
@@ -27,7 +32,7 @@ img{
 }
 .sidebar{
   background-color: #F15A29;
-  width: 150px;
+  width: 100px;
   height: 300px;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 18px;
@@ -35,7 +40,9 @@ img{
   position: fixed;
   z-index: 1;
 
-
+}
+.border{
+  float: right;
 }
 ul li{
   list-style-type: none;
@@ -43,4 +50,128 @@ ul li{
 }
 a {
   color: black;
+
+}
+#breko{
+  background-image: url("../img/breakfast.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  font-family: 'Alex Brush', cursive;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  padding: 80px;
+  margin:0px;
+}
+
+#lunch{
+  background-image: url("../img/lunch.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  font-family: 'Alex Brush', cursive;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  padding: 80px;
+  margin:0px;
+}
+#dinner{
+  background-image: url("../img/dinner.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  font-family: 'Alex Brush', cursive;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  padding: 80px;
+  margin:0px;
+}
+
+#happy{
+
+    height:99px;
+    margin:0px;
+    text-align: center;
+    padding: 25px;
+
+}
+#party{
+  background-color: #F15A29;
+  height:99px;
+  margin:0px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+#times{
+  margin:0px;
+  padding: 0px;
+}
+#breko:hover{
+  background-color: white;
+}
+.img1{
+margin:0px;
+  margin-left:300px;
+
+}
+.thumbnail{
+  width:500px;
+  margin-left: 300px;
+}
+.thumbnail1{
+  width:500px;
+  margin-left: 300px;
+}
+.border{
+  margin:20px;
+}
+
+
+#fasting{
+  margin-top: 10px;
+}
+
+#fastfood1{
+  width:20%;
+}
+#drinks1{
+  width:20%;
+  margin-left: 350px;
+}
+
+#drinks2{
+  float: right;
+  font-size: 0px;
+}
+#glass1{
+    margin:0px;
+    padding-right: 0px;
+}
+#glass2{
+  margin:0px;
+    padding-right: 0px;
+}
+button {
+    background-color: white;
+    border-color: #F15A29;
+    color: #F15A29;
+
+
+}
+.panel-footer{
+  background-color: #F15A29;
+  color: white;
+  font-family:monospace;
+}
+.panel-body{
+  background-image: url("../img/subscribe.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  padding: 100px;
+}
+#meli{
+  background-color: rbga(176,174,174,0.35);
 }
