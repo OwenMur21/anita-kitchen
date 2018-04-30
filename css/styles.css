@@ -10,6 +10,9 @@
   height: 2px;
   background-color: white;
   margin: 5px 0;
+
+  border-radius: 25px;
+  transition: 0.8s;
 }
 
 .nav1 {
@@ -18,8 +21,12 @@
   margin-left: 100px;
   position: absolute;
   margin-top: 0px;
-}
 
+}
+.nav1:hover{
+  width:25px;
+
+}
 .logo {
   font-family: 'News Cycle', sans-serif;
   font-size: 22px;
